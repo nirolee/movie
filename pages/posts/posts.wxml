@@ -1,0 +1,7 @@
+<view>
+    <swiper indicator-dots="true" autoplay="true">
+        <swiper-item><image src="/images/The_Dark_Side_of_the_Moon.jpg"></image></swiper-item> 
+        <swiper-item>1</swiper-item>
+        <swiper-item>1</swiper-item>
+    </swiper>
+</view>
