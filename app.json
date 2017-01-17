@@ -1,12 +1,12 @@
 {
   "pages":[
-    "pages/posts/posts",
-    "pages/welcome/welcome"
+     "pages/welcome/welcome",
+    "pages/posts/posts"
   ],
   "window": {
     "navigationBarBackgroundColor": "#b3d4db",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "movie",
+    "navigationBarTitleText": "lee",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false

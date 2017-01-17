@@ -1,7 +1,22 @@
 <view>
     <swiper indicator-dots="true" autoplay="true">
-        <swiper-item><image src="/images/The_Dark_Side_of_the_Moon.jpg"></image></swiper-item> 
-        <swiper-item>1</swiper-item>
-        <swiper-item>1</swiper-item>
+        <swiper-item><image src="../../images/post/cat.png"></image></swiper-item> 
+        <swiper-item><image src="../../images/post/crab.png"></image></swiper-item>
+        <swiper-item><image src="../../images/post/vr.png"></image></swiper-item>
     </swiper>
+</view>
+<view wx:for="{{posts_key}}" class="posts-container">
+    <view class="posts-avatar-date">
+    <image class="posts-avatar" src="{{item.avatar}}"></image>
+    <text class="posts-date">{{item.date}}</text>
+    </view>
+     <text class="post-title">{{item.title}}</text>
+    <image class="post-image" src="{{item.imgSrc}}"></image>
+    <text class="post-content">{{item.content}}</text>
+    <view class="post-like">
+      <image class="post-like-image" src="/images/icon/chat.png"></image>
+    <text class="post-like-font"></text>
+     <image class="post-like-image"   src="/images/icon/view.png"></image>
+    <text></text>
+    </view>
 </view>
