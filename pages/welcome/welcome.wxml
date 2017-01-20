@@ -1,7 +1,7 @@
 <view class="container">
     <image  class="avatar" src="/images/The_Dark_Side_of_the_Moon.jpg"></image>
     <text class="name">niro</text>
-    <view class="journey-container">
-    <text class="journey" bindtap="onTap">欢淫来到小程序</text>
+    <view class="journey-container" bindtap="onTap">
+    <text class="journey">欢淫来到小程序</text>
     </view>
 </view>
